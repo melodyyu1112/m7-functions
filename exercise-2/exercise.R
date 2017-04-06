@@ -2,7 +2,12 @@
 
 # Write a function `CompareLength` that takes in 2 vectors, and returns the sentence:
 # "The difference in lengths is N"
-
+CompareLength <- function(v1, v2) {
+  diff <- length(v1) - length(2)
+  return(diff)
+  #return 1 thing
+  
+}
 
 # Pass two vectors of different length to your `CompareLength` function
 
